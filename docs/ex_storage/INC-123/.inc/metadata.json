@@ -1,0 +1,39 @@
+{
+  "incident_id": "INC-123",
+  "title": "Checkout errors after deployment",
+  "status": "resolved",
+  "artifacts": [
+    {
+      "id": "E2",
+      "path": "checkout-errors.log",
+      "captured_at": "2026-11-26T06:10:00Z",
+      "source": "Piped checkout logs",
+      "tags": ["symptom"],
+      "note": "Includes the first connection timeout seen in the logs."
+    },
+    {
+      "id": "E3",
+      "path": "checkout-deploy.diff",
+      "captured_at": "2026-11-26T06:12:00Z",
+      "source": "Local file",
+      "tags": ["cause"],
+      "note": "Compare the pool limit in the two releases."
+    },
+    {
+      "id": "E4",
+      "path": "checkout-rollback.cast",
+      "captured_at": "2026-11-26T06:15:00Z",
+      "source": "Terminal recording",
+      "tags": ["mitigation"],
+      "note": "Includes rollout status for all checkout replicas."
+    },
+    {
+      "id": "E1",
+      "path": "checkout-errors.png",
+      "captured_at": "2026-11-26T06:18:00Z",
+      "source": "Grafana screenshot via clipboard",
+      "tags": ["impact"],
+      "note": "Shows the full error spike and recovery."
+    }
+  ]
+}

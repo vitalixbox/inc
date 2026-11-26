@@ -1,0 +1,7 @@
+{"version":2,"width":80,"height":24,"title":"INC-123 checkout rollback"}
+[0.0,"o","$ kubectl rollout undo deployment/checkout\r\n"]
+[1.2,"o","deployment.apps/checkout rolled back\r\n"]
+[2.0,"o","$ kubectl rollout status deployment/checkout\r\n"]
+[2.4,"o","Waiting for deployment \"checkout\" rollout: 2 of 3 updated replicas are available...\r\n"]
+[12.8,"o","deployment \"checkout\" successfully rolled out\r\n"]
+[13.1,"o","$ kubectl get deployment checkout\r\nNAME       READY   UP-TO-DATE   AVAILABLE\r\ncheckout   3/3     3            3\r\n"]

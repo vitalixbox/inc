@@ -1,0 +1,1 @@
+- Write specs in short, plain sentences that are easy to read. State each point once.

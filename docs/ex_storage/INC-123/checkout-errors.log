@@ -1,0 +1,2 @@
+2026-11-26T06:04:12Z ERROR checkout status=500 request_id=chk-781 reason=db_connection_acquisition_timeout wait_ms=2000 pool_in_use=5 pool_limit=5
+2026-11-26T06:08:57Z ERROR checkout status=500 request_id=chk-923 reason=db_connection_acquisition_timeout wait_ms=2000 pool_in_use=5 pool_limit=5
